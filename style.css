@@ -1,1 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 25px;
+}
 
+
+.nav-left{
+    white-space: nowrap;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right a{
+    margin-right: 40px;
+}
+
+.drop-down{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-right {
+      display: none;
+    }
+    
+    .drop-down{
+
+    }
+    
+}
