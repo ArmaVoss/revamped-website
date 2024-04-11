@@ -4,29 +4,51 @@
         <title>Personal Portfolio</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <nav class="navbar">
-            <div class="navleft">
-                <h>Arman Vossoughi</h>
+    <body id="home">
+        <section>
+            <div class="intro">
             </div>
-            <div class="nav-right">
-                <a>Home</a>
-                <a>About Me</a>
-                <a>Resume</a>
-                <a>Contact</a>
+            <div class="website-open">
+                <h>Hi,</h>
+                <h class="name">I'm Arman Vossoughi</h>
+                <h class="desc">welcome to my website</h>
+                <a href="#about">
+                    Continue
+                </a>
+                <div class="rectangle"></div>
+                <div class="rectangle1"></div>
             </div>
-            <div class="drop-down">
-                <button>
-                    <a>Home</a>
-                    <a>About Me</a>
-                    <a>Resume</a>
-                    <a>Contact</a>
-                </button>
+        </section>
+        <section id="about">
+            <div class="about-page">
+                <nav class="navbar">
+                    <div class="nav">
+                        <a href="#home" class="home-button">Home</a>
+                        <a class="about-me">About Me</a>
+                        <a class="experience">Experience</a>
+                        <a class="contact"> Contact</a>
+                    </div>
+                </nav>
+                <div class="drop-down">
+                    <button>
+                        <img src="icons/3547958-200.png">
+                    </button>
+                </div>
+                <div class="profile">
+                    <h1>About</h1>
+                    <div class="about-rectangle"></div>
+                    <img src="images/IMG_8810.jpg">
+                </div>
             </div>
-        </nav>
-
+            
+        </section>
+        <script src="website.js"></script>
     </body>
 </html>
