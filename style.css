@@ -46,11 +46,15 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: 35vh;
+    background-image: linear-gradient(to top, #252525, #373737); 
 }
 .website-open h{
     color: white;
     font-size: 27px;
+}
+
+.website-open .hi{
+    margin-top: 38vh;
 }
 
 .website-open .name{
@@ -149,7 +153,7 @@ body{
 .profile{
     position: relative;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 70px;
 }
 
 .profile h1{
@@ -158,6 +162,19 @@ body{
     color: white;
     margin-left: 2px;
     z-index: 2;
+}
+
+.about-box{
+    display: grid;
+    grid-template-columns: 400px 600px;
+}
+
+.about-paragraphs{
+    margin-top: 400px;
+}
+
+.about-paragraphs p{
+    margin-bottom: 35px;
 }
 
 .profile .about-rectangle{
@@ -175,6 +192,13 @@ body{
     width: 400px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.profile p{
+    margin-top: -2px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
 }
 
 @media (max-width: 750px) {    
